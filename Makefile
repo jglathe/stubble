@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 ARCH?=		$(shell uname -m)
-PREFIX?=	/usr
+PREFIX?=	/usr/local
 MIN_SECTIONS?=2048
 
 include ./Make.defaults
